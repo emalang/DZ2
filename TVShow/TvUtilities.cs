@@ -38,9 +38,7 @@ namespace TVShow
             return new Episode(Viewers, ScoreSum, MaxScore, new Description(EpisodeNumber,Duration, EpisodeName));
 
         }
-
-
-        
+     
         public static void Sort(Episode[] episodes)
         {
             int index;
