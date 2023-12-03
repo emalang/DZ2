@@ -48,6 +48,7 @@ namespace TVShow
         {
             return this.viewers;
         }
+        
         public static bool operator >(Episode lhs, Episode rhs)
         {
             return lhs.GetAverageScore() > rhs.GetAverageScore();
@@ -57,13 +58,11 @@ namespace TVShow
         {
             return lhs.GetAverageScore() < rhs.GetAverageScore();
         }
+        
         public override string ToString()
         {
             return $"{viewers},{GetAverageScore()*10:F2},{maxScore},{description.ToString()}";
         }
-
-
-
 
     }
 }
