@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ1_OOP", "..\DZ1_OOP\DZ1_OOP.csproj", "{B86204DD-D501-438B-AB8D-FBB56BADB208}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVShow", "..\TVShow\TVShow.csproj", "{78FF3C19-6371-42F3-B28B-1A66FEF9909F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B86204DD-D501-438B-AB8D-FBB56BADB208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B86204DD-D501-438B-AB8D-FBB56BADB208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B86204DD-D501-438B-AB8D-FBB56BADB208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B86204DD-D501-438B-AB8D-FBB56BADB208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78FF3C19-6371-42F3-B28B-1A66FEF9909F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78FF3C19-6371-42F3-B28B-1A66FEF9909F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78FF3C19-6371-42F3-B28B-1A66FEF9909F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78FF3C19-6371-42F3-B28B-1A66FEF9909F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {660A856E-7146-4E4F-88EA-191CD85CC79D}
+	EndGlobalSection
+EndGlobal
